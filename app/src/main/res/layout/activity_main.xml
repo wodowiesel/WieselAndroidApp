@@ -22,4 +22,45 @@
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
+
+    <ImageView
+        android:id="@+id/main_image_compass_base"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_base"
+        android:src="@drawable/compass_base" />
+
+
+    <ImageView
+        android:id="@+id/main_image_compass_needle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_needle"
+        android:src="@drawable/compass_needle" />
+    
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ff2b00"
+        android:textSize="25sp"
+        android:text="Degree"
+        />
+
+    <TextView
+        android:id="@+id/sotw_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="#0a0a02"
+        android:textSize="25sp"
+        android:text=""
+
+        />
+
 </android.support.v4.widget.DrawerLayout>
